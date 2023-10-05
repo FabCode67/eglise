@@ -9,6 +9,7 @@ const NavBar = () => {
             </div>
             <div className='logo flex space-x-8 text-2xl'>
                 <Link className='flex' to={'/'}>Home</Link>
+                <Link className='flex' to={'/#about'}>About</Link>
                 <Link className='flex' to={'#ministres'}>Ministries</Link>
                 <Link className='flex' to={'#seremonies'}>Sermonies</Link>
                 <Link className='flex' to={'#blogs'}>Blogs</Link>
